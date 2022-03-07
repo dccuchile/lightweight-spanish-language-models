@@ -1,5 +1,7 @@
 # spanish-efficient-bert-models
 
+## POS / NER
+
 |                | POS       | NER       |
 |----------------|-----------|-----------|
 | BETO uncased   | 97.70     | 83.76     |
@@ -11,6 +13,8 @@
 | ALBETO xlarge  | 98.06     | 82.30     |
 | ALBETO xxlarge | 98.35     | 84.36     |
 
+## MLDoc / PAWS-X / XNLI
+
 |                | MLDoc     | PAWS-X    | XNLI      |
 |----------------|-----------|-----------|-----------|
 | BETO uncased   | 96.38     | 84.25     | 77.76     |
@@ -21,3 +25,16 @@
 | ALBETO large   | 92.22     | 86.05     | 78.94     |
 | ALBETO xlarge  | 95.70     | 89.05     | 81.68     |
 | ALBETO xxlarge | **96.85** | **89.85** | **82.42** |
+
+## QA
+
+|                | MLQA, MLQA | TAR, XQuAD | TAR, MLQA |
+|----------------|------------|------------|-----------|
+| BETO uncased   | - / -      | - / -      | - / -     |
+| BETO cased     | - / -      | - / -      | - / -     |
+| DistilBETO     | - / -      | - / -      | - / -     |
+| ALBETO tiny    | - / -      | - / -      | - / -     |
+| ALBETO base    | - / -      | - / -      | - / -     |
+| ALBETO large   | - / -      | - / -      | - / -     |
+| ALBETO xlarge  | - / -      | - / -      | - / -     |
+| ALBETO xxlarge | - / -      | - / -      | - / -     |
