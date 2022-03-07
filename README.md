@@ -1,5 +1,20 @@
 # spanish-efficient-bert-models
 
+# Pre-trained models
+
+| Model          | Parameters | Evaluation Average | Size  | Performance |
+|----------------|------------|--------------------|-------|-------------|
+| [BETO uncased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased)   | 110M       | -                  | 1x    | -           |
+| [BETO cased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)     | 110M       | -                  | 1x    | -           |
+| [DistilBETO](https://huggingface.co/CenIA/distillbert-base-spanish-uncased)     | 67M        | -                  | 1.66x | -           |
+| [ALBETO tiny](https://huggingface.co/CenIA/albert_tiny_spanish)    | 5M         | -                  | 22x   | -           |
+| [ALBETO base](https://huggingface.co/CenIA/albert_base_spanish)    | 12M        | -                  | 9.16x | -           |
+| [ALBETO large](https://huggingface.co/CenIA/albert_large_spanish)   | 18M        | -                  | 6.11x | -           |
+| [ALBETO xlarge](https://huggingface.co/CenIA/albert_xlarge_spanish)  | 59M        | -                  | 1.86x | -           |
+| [ALBETO xxlarge](https://huggingface.co/CenIA/albert_xxlarge_spanish) | 223M       | -                  | 0.49x | -           |
+
+# Fine-tuned models
+
 ## POS / NER
 
 |                | POS       | NER       |
