@@ -1,4 +1,4 @@
-# spanish-efficient-bert-models
+# Lightweight Spanish Language Models
 
 # Pre-trained models
 
