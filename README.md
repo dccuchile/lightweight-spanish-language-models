@@ -44,7 +44,7 @@
 
 ## QA
 
-|                | MLQA, MLQA | TAR, XQuAD | TAR, MLQA |
+|                | MLQA, MLQA | TAR, MLQA | TAR, XQuAD |
 |----------------|------------|------------|-----------|
 | BETO uncased   | [64.12 / 40.83](https://huggingface.co/CenIA/bert-base-spanish-wwm-uncased-finetuned-qa-mlqa)      | [64.72 / 42.07](https://huggingface.co/CenIA/bert-base-spanish-wwm-uncased-finetuned-qa-tar)      | [- / -](https://huggingface.co/CenIA/bert-base-spanish-wwm-uncased-finetuned-qa-tar)     |
 | BETO cased     | [67.65 / 43.38](https://huggingface.co/CenIA/bert-base-spanish-wwm-cased-finetuned-qa-mlqa)      | [68.98 / 45.30](https://huggingface.co/CenIA/bert-base-spanish-wwm-cased-finetuned-qa-tar)      | [- / -](https://huggingface.co/CenIA/bert-base-spanish-wwm-cased-finetuned-qa-tar)     |
