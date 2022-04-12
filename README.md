@@ -54,3 +54,20 @@
 | ALBETO large   | [65.56 / 40.98](https://huggingface.co/CenIA/albert-large-spanish-finetuned-qa-mlqa)      | [67.29 / 43.72](https://huggingface.co/CenIA/albert-large-spanish-finetuned-qa-tar)      | [76.72 / 56.21](https://huggingface.co/CenIA/albert-large-spanish-finetuned-qa-tar)     |
 | ALBETO xlarge  | [68.26 / 43.76](https://huggingface.co/CenIA/albert-xlarge-spanish-finetuned-qa-mlqa)      | [69.45 / 45.28](https://huggingface.co/CenIA/albert-xlarge-spanish-finetuned-qa-tar)      | [**80.15** / **59.66**](https://huggingface.co/CenIA/albert-xlarge-spanish-finetuned-qa-tar)     |
 | ALBETO xxlarge | [**70.17** / **45.99**](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-mlqa)      | [**69.70** / **45.47**](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-tar)      | [79.13 / 58.40](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-tar)     |
+
+---
+
+## QA
+
+| Model          | MLQA          | SQAC  |
+|----------------|---------------|-------|
+| BETO uncased   | 64.12 / 40.83 | - / - |
+| BETO cased     | 67.65 / 43.38 | - / - |
+| DistilBETO     | 57.97 / 35.50 | - / - |
+| ALBETO tiny    | 51.84 / 28.28 | - / - |
+| ALBETO base    | 66.12 / 41.10 | - / - |
+| ALBETO large   | 65.56 / 40.98 | - / - |
+| ALBETO xlarge  | 68.26 / 43.76 | - / - |
+| ALBETO xxlarge | 70.17 / 45.99 | - / - |
+
+
