@@ -64,8 +64,8 @@
 | BETO uncased   | 64.12 / 40.83 | - / - |
 | BETO cased     | 67.65 / 43.38 | - / - |
 | DistilBETO     | 57.97 / 35.50 | - / - |
-| ALBETO tiny    | 51.84 / 28.28 | - / - |
-| ALBETO base    | 66.12 / 41.10 | - / - |
+| ALBETO tiny    | 51.84 / 28.28 | 59.28 / 39.16 |
+| ALBETO base    | 66.12 / 41.10 | 77.71 / 59.84 |
 | ALBETO large   | 65.56 / 40.98 | - / - |
 | ALBETO xlarge  | 68.26 / 43.76 | - / - |
 | ALBETO xxlarge | **70.17** / **45.99** | - / - |
