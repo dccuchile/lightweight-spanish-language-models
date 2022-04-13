@@ -63,7 +63,7 @@
 |----------------|---------------|-------|
 | BETO uncased   | [64.12 / 40.83](https://huggingface.co/CenIA/bert-base-spanish-wwm-uncased-finetuned-qa-mlqa) | [72.22 / 53.45](https://huggingface.co/CenIA/bert-base-spanish-wwm-uncased-finetuned-qa-sqac) |
 | BETO cased     | [67.65 / 43.38](https://huggingface.co/CenIA/bert-base-spanish-wwm-cased-finetuned-qa-mlqa) | [78.65 / 60.94](https://huggingface.co/CenIA/bert-base-spanish-wwm-cased-finetuned-qa-sqac) |
-| DistilBETO     | [57.97 / 35.50](https://huggingface.co/CenIA/distillbert-base-spanish-uncased-finetuned-qa-mlqa) | [- / -]() |
+| DistilBETO     | [57.97 / 35.50](https://huggingface.co/CenIA/distillbert-base-spanish-uncased-finetuned-qa-mlqa) | [- / -](https://huggingface.co/CenIA/distillbert-base-spanish-uncased-finetuned-qa-sqac) |
 | ALBETO tiny    | [51.84 / 28.28](https://huggingface.co/CenIA/albert-tiny-spanish-finetuned-qa-mlqa) | [59.28 / 39.16](https://huggingface.co/CenIA/albert-tiny-spanish-finetuned-qa-sqac) |
 | ALBETO base    | [66.12 / 41.10](https://huggingface.co/CenIA/albert-base-spanish-finetuned-qa-mlqa) | [77.71 / 59.84](https://huggingface.co/CenIA/albert-base-spanish-finetuned-qa-sqac) |
 | ALBETO large   | [65.56 / 40.98](https://huggingface.co/CenIA/albert-large-spanish-finetuned-qa-mlqa) | [- / -](https://huggingface.co/CenIA/albert-large-spanish-finetuned-qa-sqac) |
