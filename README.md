@@ -61,14 +61,14 @@
 
 | Model          | MLQA          | SQAC  |
 |----------------|---------------|-------|
-| BETO uncased   | 64.12 / 40.83 | - / - |
-| BETO cased     | 67.65 / 43.38 | - / - |
+| BETO uncased   | 64.12 / 40.83 | 72.22 / 53.45 |
+| BETO cased     | 67.65 / 43.38 | 78.65 / 60.94 |
 | DistilBETO     | 57.97 / 35.50 | - / - |
 | ALBETO tiny    | 51.84 / 28.28 | 59.28 / 39.16 |
 | ALBETO base    | 66.12 / 41.10 | 77.71 / 59.84 |
 | ALBETO large   | 65.56 / 40.98 | - / - |
-| ALBETO xlarge  | 68.26 / 43.76 | - / - |
-| ALBETO xxlarge | **70.17** / **45.99** | - / - |
+| ALBETO xlarge  | 68.26 / 43.76 | 78.64 / 59.26 |
+| ALBETO xxlarge | **70.17** / **45.99** | **81.49** / **62.67** |
 
 
 | Model          | TAR, MLQA     | TAR, SQAC | TAR, XQuAD    |
