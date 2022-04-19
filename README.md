@@ -4,6 +4,8 @@ ALBETO and DistilBETO are versions of [ALBERT](https://github.com/google-researc
 
 All models (pre-trained and fine-tuned) can be found on [our organization on the HuggingFace Hub](https://huggingface.co/CenIA).
 
+The following tables show the results of every model in different evaluation tasks with links to the model on the HuggingFace Hub.
+
 # Pre-trained models
 
 | Model          | Parameters | Evaluation Average | Size  | Performance |
