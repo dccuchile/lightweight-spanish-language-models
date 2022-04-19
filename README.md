@@ -13,11 +13,11 @@ The following tables show the results of every model in different evaluation tas
 | [BETO *uncased*](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased)   | 110M       | 77.48                  | 1x    | 0.95x           |
 | [BETO *cased*](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)     | 110M       | 81.02                  | 1x    | 1x           |
 | [DistilBETO](https://huggingface.co/CenIA/distillbert-base-spanish-uncased)     | 67M        | 73.22                  | 1.64x | 0.90x           |
-| [ALBETO *tiny*](https://huggingface.co/CenIA/albert_tiny_spanish)    | 5M         | 70.86                  | 22x   | 0.87x           |
-| [ALBETO *base*](https://huggingface.co/CenIA/albert_base_spanish)    | 12M        | 79.35                  | 9.16x | 0.97x           |
-| [ALBETO *large*](https://huggingface.co/CenIA/albert_large_spanish)   | 18M        | 78.12                  | 6.11x | 0.96x           |
-| [ALBETO *xlarge*](https://huggingface.co/CenIA/albert_xlarge_spanish)  | 59M        | 80.20                  | 1.86x | 0.98x           |
-| [ALBETO *xxlarge*](https://huggingface.co/CenIA/albert_xxlarge_spanish) | 223M       | 81.34                  | 0.49x | 1x           |
+| [ALBETO *tiny*](https://huggingface.co/CenIA/albert-tiny-spanish)    | 5M         | 70.86                  | 22x   | 0.87x           |
+| [ALBETO *base*](https://huggingface.co/CenIA/albert-base-spanish)    | 12M        | 79.35                  | 9.16x | 0.97x           |
+| [ALBETO *large*](https://huggingface.co/CenIA/albert-large-spanish)   | 18M        | 78.12                  | 6.11x | 0.96x           |
+| [ALBETO *xlarge*](https://huggingface.co/CenIA/albert-xlarge-spanish)  | 59M        | 80.20                  | 1.86x | 0.98x           |
+| [ALBETO *xxlarge*](https://huggingface.co/CenIA/albert-xxlarge-spanish) | 223M       | 81.34                  | 0.49x | 1x           |
 
 # Fine-tuned models
 
