@@ -1,17 +1,21 @@
 # Lightweight Spanish Language Models
 
+ALBETO and DistilBETO are versions of [ALBERT](https://github.com/google-research/albert) and [DistilBERT](https://github.com/huggingface/transformers/tree/main/examples/research_projects/distillation) pre-trained exclusively on [Spanish corpora](https://github.com/josecannete/spanish-corpora). We train several versions of ALBETO ranging from 5M to 223M parameters and one of DistilBETO with 67M parameters.
+
+All models (pre-trained and fine-tuned) can be found on [our organization on the HuggingFace Hub](https://huggingface.co/CenIA).
+
 # Pre-trained models
 
 | Model          | Parameters | Evaluation Average | Size  | Performance |
 |----------------|------------|--------------------|-------|-------------|
-| [BETO uncased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased)   | 110M       | -                  | 1x    | -           |
-| [BETO cased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)     | 110M       | -                  | 1x    | -           |
-| [DistilBETO](https://huggingface.co/CenIA/distillbert-base-spanish-uncased)     | 67M        | -                  | 1.66x | -           |
-| [ALBETO tiny](https://huggingface.co/CenIA/albert_tiny_spanish)    | 5M         | -                  | 22x   | -           |
-| [ALBETO base](https://huggingface.co/CenIA/albert_base_spanish)    | 12M        | -                  | 9.16x | -           |
-| [ALBETO large](https://huggingface.co/CenIA/albert_large_spanish)   | 18M        | -                  | 6.11x | -           |
-| [ALBETO xlarge](https://huggingface.co/CenIA/albert_xlarge_spanish)  | 59M        | -                  | 1.86x | -           |
-| [ALBETO xxlarge](https://huggingface.co/CenIA/albert_xxlarge_spanish) | 223M       | -                  | 0.49x | -           |
+| [BETO uncased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-uncased)   | 110M       | 77.48                  | 1x    | 0.95x           |
+| [BETO cased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)     | 110M       | 81.02                  | 1x    | 1x           |
+| [DistilBETO](https://huggingface.co/CenIA/distillbert-base-spanish-uncased)     | 67M        | 73.22                  | 1.64x | 0.90x           |
+| [ALBETO tiny](https://huggingface.co/CenIA/albert_tiny_spanish)    | 5M         | 70.86                  | 22x   | 0.87x           |
+| [ALBETO base](https://huggingface.co/CenIA/albert_base_spanish)    | 12M        | 79.35                  | 9.16x | 0.97x           |
+| [ALBETO large](https://huggingface.co/CenIA/albert_large_spanish)   | 18M        | 78.12                  | 6.11x | 0.96x           |
+| [ALBETO xlarge](https://huggingface.co/CenIA/albert_xlarge_spanish)  | 59M        | 80.20                  | 1.86x | 0.98x           |
+| [ALBETO xxlarge](https://huggingface.co/CenIA/albert_xxlarge_spanish) | 223M       | 81.34                  | 0.49x | 1x           |
 
 # Fine-tuned models
 
@@ -55,3 +59,4 @@
 | ALBETO xlarge  | [68.26 / 43.76](https://huggingface.co/CenIA/albert-xlarge-spanish-finetuned-qa-mlqa) | [78.64 / 59.26](https://huggingface.co/CenIA/albert-xlarge-spanish-finetuned-qa-sqac) | [**80.15** / **59.66**](https://huggingface.co/CenIA/albert-xlarge-spanish-finetuned-qa-tar) |
 | ALBETO xxlarge | [**70.17** / **45.99**](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-mlqa) | [**81.49** / **62.67**](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-sqac) | [79.13 / 58.40](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-tar) |
 
+# Citation
