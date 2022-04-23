@@ -1,5 +1,7 @@
 # Lightweight Spanish Language Models
 
+[ALBETO and DistilBETO: Lightweight Spanish Language Models](https://arxiv.org/abs/2204.09145)
+
 **ALBETO** and **DistilBETO** are versions of [ALBERT](https://github.com/google-research/albert) and [DistilBERT](https://github.com/huggingface/transformers/tree/main/examples/research_projects/distillation) pre-trained exclusively on [Spanish corpora](https://github.com/josecannete/spanish-corpora). We train several versions of ALBETO ranging from 5M to 223M parameters and one of DistilBETO with 67M parameters.
 
 All models (pre-trained and fine-tuned) can be found on [our organization on the HuggingFace Hub](https://huggingface.co/CenIA).
@@ -62,3 +64,19 @@ The following tables show the results of every model in different evaluation tas
 | ALBETO *xxlarge* | [**70.17** / **45.99**](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-mlqa) | [**81.49** / **62.67**](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-sqac) | [79.13 / 58.40](https://huggingface.co/CenIA/albert-xxlarge-spanish-finetuned-qa-tar) |
 
 # Citation
+
+[ALBETO and DistilBETO: Lightweight Spanish Language Models](https://arxiv.org/abs/2204.09145)
+
+To cite this resource in a publication please use the following:
+
+```
+ @inproceedings{canete2022albeto,
+   title="ALBETO and DistilBETO: Lightweight Spanish Language Models",
+   author="Ca{\~n}ete, Jos{\'e} and Donoso, Sebasti{\'a}n and Bravo-Marquez, Felipe and Carvallo, Andr{\'e}s and Araujo, Vladimir",
+   booktitle = "Proceedings of the 13th Language Resources and Evaluation Conference",
+   year = "2022",
+   address = "Marseille, France",
+   publisher = "European Language Resources Association",
+ }
+ ```
+ 
