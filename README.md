@@ -4,7 +4,7 @@
 
 **ALBETO** and **DistilBETO** are versions of [ALBERT](https://github.com/google-research/albert) and [DistilBERT](https://github.com/huggingface/transformers/tree/main/examples/research_projects/distillation) pre-trained exclusively on [Spanish corpora](https://github.com/josecannete/spanish-corpora). We train several versions of ALBETO ranging from 5M to 223M parameters and one of DistilBETO with 67M parameters.
 
-All models (pre-trained and fine-tuned) can be found on [our organization on the HuggingFace Hub](https://huggingface.co/CenIA).
+All models (pre-trained and fine-tuned) can be found on [our organization on the HuggingFace Hub](https://huggingface.co/dccuchile).
 
 The following tables show the results of every model in different evaluation tasks with links to the model on the HuggingFace Hub.
 
